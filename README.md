@@ -1,6 +1,10 @@
 # SF SafeWalk
 
-SF Safewalk helps people plan safe walking routes to avoid streets high in pedestrian relevant crime. A user enters their origin, destination, and time they plan to walk and is given recommendations about what route maximizes safety as well as time efficiency. 
+SF Safewalk helps users plan a safe walking routes by mapping streets high in pedestrian relevant crimes. 
+
+## Screenshots
+
+![Alt text](./screenshot.png?raw=true)
 
 ## Team
 
@@ -9,23 +13,34 @@ SF Safewalk helps people plan safe walking routes to avoid streets high in pedes
   - Benicio Peinado
   - Tyler Arbus
 
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Roadmap](#roadmap)
-1. [Contributing](#contributing)
-
 ## Usage
 
-> TBD
+Run the following script from within the root directory:
 
-## Requirements
+```sh
+npm run dev
+```
 
-- TBD
+## :package: Tech Stack
+
+### Front-End
+
+1. React
+2. Google Maps Javascript API
+
+### Back-End
+
+1. Node
+2. Express
+3. MongoDB
+4. SF Opendata API
+
+### Development Tools
+
+1. Webpack
+2. Mocha
+3. Enzyme
+4. Supertest
 
 ## Development
 
@@ -36,11 +51,6 @@ From within the root directory:
 ```sh
 npm install
 ```
-
-### Roadmap
-
-View the project roadmap [here](https://docs.google.com/spreadsheets/d/15vVgIuMDFE1GMvDxHVId6Pad4HZNPv-rrrK6mR3Qblo/edit#gid=0)
-
 
 ## Contributing
 
